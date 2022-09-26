@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="O:\Documents\3A\Software_dvt\organized_project\tests\test_version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="O:\Documents\3A\Software_dvt\organized_project\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{40B781B6-4568-37F3-AB65-5AD7D413AEF2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

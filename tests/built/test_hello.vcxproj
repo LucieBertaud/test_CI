@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{881A9A8E-DB36-31A2-B49E-77DBB676FC72}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>test_hello</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">O:\Documents\3A\Software_dvt\organized_project\tests\built\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test_hello.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test_hello</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">O:\Documents\3A\Software_dvt\organized_project\tests\built\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test_hello.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test_hello</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">O:\Documents\3A\Software_dvt\organized_project\tests\built\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">test_hello.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">test_hello</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">O:\Documents\3A\Software_dvt\organized_project\tests\built\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">test_hello.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">test_hello</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>O:\Documents\3A\Software_dvt\organized_project\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>O:\Documents\3A\Software_dvt\organized_project\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>O:\Documents\3A\Software_dvt\organized_project\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>O:\Documents\3A\Software_dvt\organized_project\build\install\lib\loglib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>O:/Documents/3A/Software_dvt/organized_project/tests/built/Debug/test_hello.lib</ImportLibrary>
+      <ProgramDataBaseFile>O:/Documents/3A/Software_dvt/organized_project/tests/built/Debug/test_hello.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>O:\Documents\3A\Software_dvt\organized_project\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>O:\Documents\3A\Software_dvt\organized_project\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>O:\Documents\3A\Software_dvt\organized_project\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>O:\Documents\3A\Software_dvt\organized_project\build\install\lib\loglib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>O:/Documents/3A/Software_dvt/organized_project/tests/built/Release/test_hello.lib</ImportLibrary>
+      <ProgramDataBaseFile>O:/Documents/3A/Software_dvt/organized_project/tests/built/Release/test_hello.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>O:\Documents\3A\Software_dvt\organized_project\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>O:\Documents\3A\Software_dvt\organized_project\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>O:\Documents\3A\Software_dvt\organized_project\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>O:\Documents\3A\Software_dvt\organized_project\build\install\lib\loglib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>O:/Documents/3A/Software_dvt/organized_project/tests/built/MinSizeRel/test_hello.lib</ImportLibrary>
+      <ProgramDataBaseFile>O:/Documents/3A/Software_dvt/organized_project/tests/built/MinSizeRel/test_hello.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>O:\Documents\3A\Software_dvt\organized_project\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>O:\Documents\3A\Software_dvt\organized_project\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>O:\Documents\3A\Software_dvt\organized_project\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>O:\Documents\3A\Software_dvt\organized_project\build\install\lib\loglib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>O:/Documents/3A/Software_dvt/organized_project/tests/built/RelWithDebInfo/test_hello.lib</ImportLibrary>
+      <ProgramDataBaseFile>O:/Documents/3A/Software_dvt/organized_project/tests/built/RelWithDebInfo/test_hello.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="O:\Documents\3A\Software_dvt\organized_project\tests\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule O:/Documents/3A/Software_dvt/organized_project/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SO:/Documents/3A/Software_dvt/organized_project/tests -BO:/Documents/3A/Software_dvt/organized_project/tests/built --check-stamp-file O:/Documents/3A/Software_dvt/organized_project/tests/built/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;O:\Documents\3A\Software_dvt\organized_project\build\install\cmake\loglib_target-debug.cmake;O:\Documents\3A\Software_dvt\organized_project\build\install\cmake\loglib_target.cmake;O:\Documents\3A\Software_dvt\organized_project\build\install\cmake\organized_projectConfig.cmake;O:\Documents\3A\Software_dvt\organized_project\tests\built\CMakeFiles\3.24.0-rc2\CMakeCCompiler.cmake;O:\Documents\3A\Software_dvt\organized_project\tests\built\CMakeFiles\3.24.0-rc2\CMakeCXXCompiler.cmake;O:\Documents\3A\Software_dvt\organized_project\tests\built\CMakeFiles\3.24.0-rc2\CMakeRCCompiler.cmake;O:\Documents\3A\Software_dvt\organized_project\tests\built\CMakeFiles\3.24.0-rc2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">O:\Documents\3A\Software_dvt\organized_project\tests\built\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule O:/Documents/3A/Software_dvt/organized_project/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SO:/Documents/3A/Software_dvt/organized_project/tests -BO:/Documents/3A/Software_dvt/organized_project/tests/built --check-stamp-file O:/Documents/3A/Software_dvt/organized_project/tests/built/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;O:\Documents\3A\Software_dvt\organized_project\build\install\cmake\loglib_target-debug.cmake;O:\Documents\3A\Software_dvt\organized_project\build\install\cmake\loglib_target.cmake;O:\Documents\3A\Software_dvt\organized_project\build\install\cmake\organized_projectConfig.cmake;O:\Documents\3A\Software_dvt\organized_project\tests\built\CMakeFiles\3.24.0-rc2\CMakeCCompiler.cmake;O:\Documents\3A\Software_dvt\organized_project\tests\built\CMakeFiles\3.24.0-rc2\CMakeCXXCompiler.cmake;O:\Documents\3A\Software_dvt\organized_project\tests\built\CMakeFiles\3.24.0-rc2\CMakeRCCompiler.cmake;O:\Documents\3A\Software_dvt\organized_project\tests\built\CMakeFiles\3.24.0-rc2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">O:\Documents\3A\Software_dvt\organized_project\tests\built\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule O:/Documents/3A/Software_dvt/organized_project/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SO:/Documents/3A/Software_dvt/organized_project/tests -BO:/Documents/3A/Software_dvt/organized_project/tests/built --check-stamp-file O:/Documents/3A/Software_dvt/organized_project/tests/built/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;O:\Documents\3A\Software_dvt\organized_project\build\install\cmake\loglib_target-debug.cmake;O:\Documents\3A\Software_dvt\organized_project\build\install\cmake\loglib_target.cmake;O:\Documents\3A\Software_dvt\organized_project\build\install\cmake\organized_projectConfig.cmake;O:\Documents\3A\Software_dvt\organized_project\tests\built\CMakeFiles\3.24.0-rc2\CMakeCCompiler.cmake;O:\Documents\3A\Software_dvt\organized_project\tests\built\CMakeFiles\3.24.0-rc2\CMakeCXXCompiler.cmake;O:\Documents\3A\Software_dvt\organized_project\tests\built\CMakeFiles\3.24.0-rc2\CMakeRCCompiler.cmake;O:\Documents\3A\Software_dvt\organized_project\tests\built\CMakeFiles\3.24.0-rc2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">O:\Documents\3A\Software_dvt\organized_project\tests\built\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule O:/Documents/3A/Software_dvt/organized_project/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SO:/Documents/3A/Software_dvt/organized_project/tests -BO:/Documents/3A/Software_dvt/organized_project/tests/built --check-stamp-file O:/Documents/3A/Software_dvt/organized_project/tests/built/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;O:\Documents\3A\Software_dvt\organized_project\build\install\cmake\loglib_target-debug.cmake;O:\Documents\3A\Software_dvt\organized_project\build\install\cmake\loglib_target.cmake;O:\Documents\3A\Software_dvt\organized_project\build\install\cmake\organized_projectConfig.cmake;O:\Documents\3A\Software_dvt\organized_project\tests\built\CMakeFiles\3.24.0-rc2\CMakeCCompiler.cmake;O:\Documents\3A\Software_dvt\organized_project\tests\built\CMakeFiles\3.24.0-rc2\CMakeCXXCompiler.cmake;O:\Documents\3A\Software_dvt\organized_project\tests\built\CMakeFiles\3.24.0-rc2\CMakeRCCompiler.cmake;O:\Documents\3A\Software_dvt\organized_project\tests\built\CMakeFiles\3.24.0-rc2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">O:\Documents\3A\Software_dvt\organized_project\tests\built\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="O:\Documents\3A\Software_dvt\organized_project\tests\test_hello.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="O:\Documents\3A\Software_dvt\organized_project\tests\built\ZERO_CHECK.vcxproj">
+      <Project>{A0118A0A-1FB8-3448-BFE6-BE5BA9ED361B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
